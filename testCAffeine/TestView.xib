@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TestView">
+            <rect key="frame" x="0.0" y="0.0" width="226" height="285"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uuf-L7-Gtr">
+                    <rect key="frame" x="92" y="72" width="42" height="21"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ai6-QQ-IKL">
+                    <rect key="frame" x="92" y="10" width="42" height="21"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FWl-9y-lGL">
+                    <rect key="frame" x="92" y="41" width="42" height="21"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HbV-xG-VHA">
+                    <rect key="frame" x="0.0" y="255" width="226" height="30"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="1Y3-QR-IO8"/>
+                    </constraints>
+                    <state key="normal" title="Button">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="HbV-xG-VHA" secondAttribute="bottom" id="27u-6g-zUp"/>
+                <constraint firstItem="HbV-xG-VHA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="534-zt-RNC"/>
+                <constraint firstItem="FWl-9y-lGL" firstAttribute="height" secondItem="Ai6-QQ-IKL" secondAttribute="height" id="8xG-LL-gie"/>
+                <constraint firstAttribute="trailing" secondItem="HbV-xG-VHA" secondAttribute="trailing" id="B4s-pg-0Fc"/>
+                <constraint firstItem="FWl-9y-lGL" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="SyW-oq-w5r"/>
+                <constraint firstItem="uuf-L7-Gtr" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="TI8-Ne-2cB"/>
+                <constraint firstItem="uuf-L7-Gtr" firstAttribute="width" secondItem="Ai6-QQ-IKL" secondAttribute="width" id="Upj-fG-VxK"/>
+                <constraint firstItem="Ai6-QQ-IKL" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="cRs-qE-9NC"/>
+                <constraint firstItem="FWl-9y-lGL" firstAttribute="top" secondItem="Ai6-QQ-IKL" secondAttribute="bottom" constant="10" id="dT8-XP-xKx"/>
+                <constraint firstItem="FWl-9y-lGL" firstAttribute="width" secondItem="Ai6-QQ-IKL" secondAttribute="width" id="e6s-jg-ijI"/>
+                <constraint firstItem="Ai6-QQ-IKL" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="eP3-XW-SU5"/>
+                <constraint firstItem="uuf-L7-Gtr" firstAttribute="height" secondItem="Ai6-QQ-IKL" secondAttribute="height" id="sNA-iP-4HL"/>
+                <constraint firstItem="uuf-L7-Gtr" firstAttribute="top" secondItem="FWl-9y-lGL" secondAttribute="bottom" constant="10" id="zCa-uj-4Sc"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="botCost" destination="27u-6g-zUp" id="Dah-sf-aQW"/>
+                <outlet property="bottomButton" destination="HbV-xG-VHA" id="Dou-50-lzI"/>
+            </connections>
+            <point key="canvasLocation" x="213" y="83.5"/>
+        </view>
+    </objects>
+</document>

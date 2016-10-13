@@ -7,11 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A0A029C1C0FEEE400E55CA3 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0A029B1C0FEEE400E55CA3 /* TestView.m */; };
+		5A0A02A01C0FEF2300E55CA3 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A0A029F1C0FEF2300E55CA3 /* TestView.xib */; };
+		5A1359001C0ECC5800541838 /* MyCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1358FD1C0ECC5800541838 /* MyCenterViewController.m */; };
+		5A1359011C0ECC5800541838 /* MyCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A1358FE1C0ECC5800541838 /* MyCenterViewController.xib */; };
+		5A51C3241C1532A200018330 /* atb_collect_pre@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A51C3231C1532A200018330 /* atb_collect_pre@2x.png */; };
+		5A51C3261C1532A600018330 /* atb_collect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A51C3251C1532A600018330 /* atb_collect@2x.png */; };
+		5AA645341C152E8700D9F7B0 /* CollectionRebateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA645331C152E8700D9F7B0 /* CollectionRebateView.m */; };
 		5ABDA45A1C0DD8C50004BA49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABDA4591C0DD8C50004BA49 /* main.m */; };
 		5ABDA45D1C0DD8C50004BA49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABDA45C1C0DD8C50004BA49 /* AppDelegate.m */; };
 		5ABDA45F1C0DD8C50004BA49 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ABDA45E1C0DD8C50004BA49 /* Images.xcassets */; };
 		5ABDA4621C0DD8C50004BA49 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ABDA4601C0DD8C50004BA49 /* LaunchScreen.xib */; };
 		5ABDA46E1C0DD8C50004BA49 /* testCAffeineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABDA46D1C0DD8C50004BA49 /* testCAffeineTests.m */; };
+		5ABDA4791C0DD8E70004BA49 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABDA4781C0DD8E70004BA49 /* RootViewController.m */; };
+		5ABDC2B21C12BEE1002E9A1D /* AutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABDC2B11C12BEE1002E9A1D /* AutoLayoutViewController.m */; };
+		5ABDC2B61C12C207002E9A1D /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABDC2B51C12C207002E9A1D /* UIView+AutoLayout.m */; };
+		5ABDCEF31C1AF9F9008EEE72 /* TransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABDCEF21C1AF9F9008EEE72 /* TransformViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +36,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A0A029A1C0FEEE400E55CA3 /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		5A0A029B1C0FEEE400E55CA3 /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		5A0A029F1C0FEF2300E55CA3 /* TestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
+		5A1358FD1C0ECC5800541838 /* MyCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCenterViewController.m; sourceTree = "<group>"; };
+		5A1358FE1C0ECC5800541838 /* MyCenterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCenterViewController.xib; sourceTree = "<group>"; };
+		5A1358FF1C0ECC5800541838 /* MyCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCenterViewController.h; sourceTree = "<group>"; };
+		5A51C3231C1532A200018330 /* atb_collect_pre@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "atb_collect_pre@2x.png"; sourceTree = "<group>"; };
+		5A51C3251C1532A600018330 /* atb_collect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "atb_collect@2x.png"; sourceTree = "<group>"; };
+		5AA645321C152E8700D9F7B0 /* CollectionRebateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionRebateView.h; sourceTree = "<group>"; };
+		5AA645331C152E8700D9F7B0 /* CollectionRebateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionRebateView.m; sourceTree = "<group>"; };
 		5ABDA4541C0DD8C50004BA49 /* testCAffeine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testCAffeine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ABDA4581C0DD8C50004BA49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5ABDA4591C0DD8C50004BA49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -35,6 +56,14 @@
 		5ABDA4671C0DD8C50004BA49 /* testCAffeineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testCAffeineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ABDA46C1C0DD8C50004BA49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5ABDA46D1C0DD8C50004BA49 /* testCAffeineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testCAffeineTests.m; sourceTree = "<group>"; };
+		5ABDA4771C0DD8E70004BA49 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		5ABDA4781C0DD8E70004BA49 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		5ABDC2B01C12BEE1002E9A1D /* AutoLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutViewController.h; sourceTree = "<group>"; };
+		5ABDC2B11C12BEE1002E9A1D /* AutoLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutViewController.m; sourceTree = "<group>"; };
+		5ABDC2B41C12C207002E9A1D /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
+		5ABDC2B51C12C207002E9A1D /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
+		5ABDCEF11C1AF9F9008EEE72 /* TransformViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformViewController.h; sourceTree = "<group>"; };
+		5ABDCEF21C1AF9F9008EEE72 /* TransformViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +84,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5AA645311C152E8700D9F7B0 /* CollectionRebateView */ = {
+			isa = PBXGroup;
+			children = (
+				5A51C3231C1532A200018330 /* atb_collect_pre@2x.png */,
+				5A51C3251C1532A600018330 /* atb_collect@2x.png */,
+				5AA645321C152E8700D9F7B0 /* CollectionRebateView.h */,
+				5AA645331C152E8700D9F7B0 /* CollectionRebateView.m */,
+			);
+			path = CollectionRebateView;
+			sourceTree = "<group>";
+		};
 		5ABDA44B1C0DD8C50004BA49 = {
 			isa = PBXGroup;
 			children = (
@@ -76,8 +116,22 @@
 		5ABDA4561C0DD8C50004BA49 /* testCAffeine */ = {
 			isa = PBXGroup;
 			children = (
+				5ABDC2B31C12C207002E9A1D /* UIView+AutoLayout */,
+				5AA645311C152E8700D9F7B0 /* CollectionRebateView */,
+				5A1358FD1C0ECC5800541838 /* MyCenterViewController.m */,
+				5A1358FE1C0ECC5800541838 /* MyCenterViewController.xib */,
+				5A1358FF1C0ECC5800541838 /* MyCenterViewController.h */,
 				5ABDA45B1C0DD8C50004BA49 /* AppDelegate.h */,
 				5ABDA45C1C0DD8C50004BA49 /* AppDelegate.m */,
+				5ABDA4771C0DD8E70004BA49 /* RootViewController.h */,
+				5ABDA4781C0DD8E70004BA49 /* RootViewController.m */,
+				5ABDC2B01C12BEE1002E9A1D /* AutoLayoutViewController.h */,
+				5ABDC2B11C12BEE1002E9A1D /* AutoLayoutViewController.m */,
+				5ABDCEF11C1AF9F9008EEE72 /* TransformViewController.h */,
+				5ABDCEF21C1AF9F9008EEE72 /* TransformViewController.m */,
+				5A0A029A1C0FEEE400E55CA3 /* TestView.h */,
+				5A0A029B1C0FEEE400E55CA3 /* TestView.m */,
+				5A0A029F1C0FEF2300E55CA3 /* TestView.xib */,
 				5ABDA45E1C0DD8C50004BA49 /* Images.xcassets */,
 				5ABDA4601C0DD8C50004BA49 /* LaunchScreen.xib */,
 				5ABDA4571C0DD8C50004BA49 /* Supporting Files */,
@@ -109,6 +163,15 @@
 				5ABDA46C1C0DD8C50004BA49 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5ABDC2B31C12C207002E9A1D /* UIView+AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				5ABDC2B41C12C207002E9A1D /* UIView+AutoLayout.h */,
+				5ABDC2B51C12C207002E9A1D /* UIView+AutoLayout.m */,
+			);
+			path = "UIView+AutoLayout";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,8 +254,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A1359011C0ECC5800541838 /* MyCenterViewController.xib in Resources */,
+				5A51C3241C1532A200018330 /* atb_collect_pre@2x.png in Resources */,
 				5ABDA4621C0DD8C50004BA49 /* LaunchScreen.xib in Resources */,
+				5A0A02A01C0FEF2300E55CA3 /* TestView.xib in Resources */,
 				5ABDA45F1C0DD8C50004BA49 /* Images.xcassets in Resources */,
+				5A51C3261C1532A600018330 /* atb_collect@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +278,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ABDA45D1C0DD8C50004BA49 /* AppDelegate.m in Sources */,
+				5A1359001C0ECC5800541838 /* MyCenterViewController.m in Sources */,
+				5A0A029C1C0FEEE400E55CA3 /* TestView.m in Sources */,
+				5AA645341C152E8700D9F7B0 /* CollectionRebateView.m in Sources */,
+				5ABDC2B21C12BEE1002E9A1D /* AutoLayoutViewController.m in Sources */,
 				5ABDA45A1C0DD8C50004BA49 /* main.m in Sources */,
+				5ABDCEF31C1AF9F9008EEE72 /* TransformViewController.m in Sources */,
+				5ABDC2B61C12C207002E9A1D /* UIView+AutoLayout.m in Sources */,
+				5ABDA4791C0DD8E70004BA49 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +474,7 @@
 				5ABDA4731C0DD8C50004BA49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5ABDA4741C0DD8C50004BA49 /* Build configuration list for PBXNativeTarget "testCAffeineTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +483,7 @@
 				5ABDA4761C0DD8C50004BA49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
